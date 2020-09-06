@@ -27,6 +27,7 @@ export const NodeTransforms = {
       voids?: boolean
     } = {}
   ) {
+    console.log('bazinga')
     Editor.withoutNormalizing(editor, () => {
       const { hanging = false, voids = false, mode = 'lowest' } = options
       let { at, match, select } = options

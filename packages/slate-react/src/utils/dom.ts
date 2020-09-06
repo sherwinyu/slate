@@ -45,6 +45,7 @@ export const isDOMElement = (value: any): value is DOMElement => {
  */
 
 export const isDOMNode = (value: any): value is DOMNode => {
+  throw Error();
   return value instanceof Node
 }
 
